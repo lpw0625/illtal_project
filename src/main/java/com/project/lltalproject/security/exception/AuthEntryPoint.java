@@ -15,6 +15,5 @@ import java.rmi.ServerException;
 public class AuthEntryPoint implements AuthenticationEntryPoint {
     @Override
     public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException) throws IOException, ServerException {
-        System.out.println(authException);
     }
 }
